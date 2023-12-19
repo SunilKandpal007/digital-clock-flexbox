@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #00aaff;
+    font-family: monospace, serif;
+}
+
+header{
+    margin: 0px;
+    padding: 0;
+}
+.heading{
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    font-family: monospace, Cambria;
+    font-size: 2.5rem;
+    box-shadow: 10px 10px 20px #000;
+}
+
+/* Flexbox container */
+.parent{
+    /* background-color: #fff; */
+    margin: 0px;
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.child-one{
+    background-color: rgb(116,255,116);
+    width: 150px;
+    height: 150px;
+    box-shadow: 10px 10px 10px blue;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.child-two{
+    background-color: rgb(116,116,255);
+    width: 80px;
+    height: 150px;
+    font-size: 3rem;
+    box-shadow: 10px 10px 10px blue;
+}
+
+.child-three{
+    background-color: rgb(116,255,116);
+    width: 150px;
+    height: 150px;
+    font-size: 3rem;
+    box-shadow: 10px 10px 10px blue;
+}
+.child-four{
+    background-color: rgb(116,116,255);
+    width: 80px;
+    height: 150px;
+    font-size: 3rem;
+    box-shadow: 10px 10px 10px blue;
+}
+.child-five{
+    background-color: rgb(116,255,116);
+    width: 150px;
+    height: 150px;
+    font-size: 3rem;
+    box-shadow: 10px 10px 10px blue;
+}
+.child-six{
+    background-color: rgb(116,116,255);
+    width: 150px;
+    height: 150px;
+    font-size: 3rem;
+    box-shadow: 10px 10px 10px blue;
+    border-radius: 0 10px 10px 0;
+    margin-right: 20px;
+}
+
+.child-7{
+    width: 400px;
+    height: 150px;
+    background-color: rgb(116,255,116);
+    box-shadow: 10px 10px 10px green;
+    border-radius: 10px 0px 0px 10px;
+}
+.child-8{
+    width: 100px;
+    height: 150px;
+    background-color: rgb(189, 117, 248);
+    box-shadow: 10px 10px 15px;
+    border-radius: 0 10px 10px 0px;
+}
+
+/* css for hh-mm-ss-am-pm */
+.hh{
+    margin: 0;
+    font-size: 4.5rem;
+    margin-top: 20%;
+    margin-left: 19%;
+}
+
+.mm{
+    margin: 0;
+    font-size: 4.5rem;
+    margin-top: 20%;
+    margin-left: 19%;
+}
+
+.ss{
+    margin: 0;
+    font-size: 4.5rem;
+    margin-top: 20%;
+    margin-left: 22%;
+}
+
+.ampm{
+    margin: 0;
+    font-size: 4.5rem;
+    margin-top: 20%;
+    margin-left: 10%;
+}
+
+.weekDay{
+    margin: 0;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 10%;
+    text-transform: uppercase;
+    color: darkred;
+}
+.mycald{
+    margin: 0;
+    font-size: 4.5rem;
+    text-align: center;
+    margin-top: 35%;
+}
+.digit{
+    margin: 0;
+    font-size: 6.5rem;
+    margin-top: 10%;
+    margin-left: 25%;
+}
